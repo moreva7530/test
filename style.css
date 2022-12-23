@@ -18,6 +18,7 @@ header{
     width: 301px;
     margin: 0;
     padding: 0;
+    display: inline-block;
 }
 .logo h1 {
     font-family: Oswald;
@@ -73,7 +74,7 @@ div ul li a{
     transform: rotate(90deg);
     position: relative;
     left: -207px;
-    top: 170px;
+    top: -250px;
     z-index: -1;
 }
 .first{
@@ -220,3 +221,111 @@ div ul li a{
     background-position: center;
 }
 
+/* s2 */
+.s2 {
+    max-width: 1440px;
+    width: 100%;
+}
+.border {
+    border: 1px solid rgba(238, 238, 238, 0.1);
+    position: relative;
+    top: 892px;
+}
+.arrow_all {
+    border: 1px solid rgba(238, 238, 238, 0.1);
+    transform: rotate(90deg);
+    position: relative;
+    left: -207px;
+    top: 302px;
+    z-index: -2;
+
+}
+.note {
+    background-image: url(../img/s2/note.png);
+    width: 64px;
+    height: 49px;
+    display: inline-block;
+    position: absolute;
+    top: 1159px;
+    left: 96px;
+
+}
+.info {
+    border: 1px solid red;
+    width: 426px;
+    height: 294px;
+    display: inline-block;
+    position: absolute;
+    top: 1271px;
+    left: 96px;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+}
+.w_word {
+}
+.b_word {
+}
+.txt {
+}
+.readmore {
+}
+.lamp {
+    background-image: url(../img/s2/lamp.png);
+    width: 79px;
+    height: 101px;
+}
+.arrow_s2 {
+    background-image: url(../img/s2/arrow_2.png);
+    width: 147px;
+    height: 151px;
+    display: inline-block;
+    flex-direction: row;
+    position: absolute;
+    top: 1630px;
+    left: 257px;
+}
+.img_s2 {
+    border: 1px solid gold;
+    width: 665px;
+    height: 593px;
+    display: inline-block;
+    flex-direction: row;
+    position: absolute;
+    top: 1254px;
+    right: 111px;
+
+}
+.things {
+    background-image: url(../img/s2/things.png);
+    background-repeat: no-repeat;
+    width: 666px;
+    height: 499px;
+}
+.worker {
+    background-image: url(../img/s2/person.png);
+    background-repeat: no-repeat;
+    width: 414px;
+    height: 355px;
+    position: relative;
+    top: -270px;
+    left: 108px;
+}
+.shaddow_s2 {
+    background-image: url(../img/s2/shaddow_2.png);
+    background-repeat: no-repeat;
+    width: 348px;
+    height: 24px;
+    position: relative;
+    top: -282px;
+    left: 160px;
+    z-index: -1;
+}
+.border_test{
+    border: 1px solid rgba(165, 3, 3, 0.836);
+    width: 1400px;
+    position: absolute;
+    top: 2048px;
+    left: 10px;
+}
