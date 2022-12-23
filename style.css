@@ -1,0 +1,222 @@
+body{
+    background-color: #222831;
+    margin: 0;
+    padding: 0;
+    max-width: 1440;
+    width: 100%;
+    height: auto;
+}
+
+/*Menu*/
+
+header{
+    height: 132px;
+    flex-grow: 1;
+}
+.logo{
+    height: 132px;
+    width: 301px;
+    margin: 0;
+    padding: 0;
+}
+.logo h1 {
+    font-family: Oswald;
+    font-size: 24;
+    font-weight: 700;
+    color: #fff;
+    padding: 48px 96px;
+    margin: 0;
+}
+.nav {  
+    width: 502px;
+    height: 123px; 
+    
+    display: flex;
+
+    margin: 0px 48px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    
+}
+div ul{
+    margin: 0px;
+    padding: 0px;
+}
+div ul li{ 
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+
+    list-style: none;
+    margin: 0;
+    padding: 48px 48px;
+}
+div ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+/*Section_1*/
+.section1{
+    margin: 0;
+    padding: 0;
+}
+.cross{
+    background-image: url(../img/header/cross_menu.png);
+    height: 2px;
+    
+}
+.all_cross {
+    background-image: url(../img/header/all_cross.png);
+    height: 2px;
+    transform: rotate(90deg);
+    position: relative;
+    left: -207px;
+    top: 170px;
+    z-index: -1;
+}
+.first{
+    display: flex; 
+    width: inherit;
+    height: 892px;
+}
+.main_text {
+    width: 694px;
+    height: 287px;
+    display: flex;
+    margin: 212px 0px 0px 77px;
+    
+}
+.txt_btn {
+    position: relative;
+    width: 586px;
+    height: 287px;
+    left: 23px;
+}
+.white_h1 {
+    color: #EEEEEE;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 96px;
+    margin: 0;
+    padding: 0;
+    line-height: 96px;
+
+}
+.blue_h1 {
+    color:#00ADB5;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 96px;
+    margin: 0;
+    padding: 0px 0px 48px 0px;
+    line-height: 96px;
+    z-index: 2;
+}
+.line {
+    background-image: url(../img/header/Line.png);
+    width: 79px;
+    height: 235px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 41px;
+}
+.first_btn {
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #EEEEEE;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+
+    padding: 10px 32px;
+
+    background-color: #00ADB5;
+    width: 136px;
+    height: 47px;
+    border-radius: 24px;
+    border: none;
+
+}
+.second_btn {
+    color: #EEEEEE;
+    font-family: poppins;
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 700;
+    background: rgba(57, 62, 70, 0.75);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    margin: 0px 0px 0px 24px;
+    
+    width: 223px;
+    height: 47px;
+    border-radius: 24px;
+    backdrop-filter: blur(2px);
+    border: none;
+    padding: 10px 66px 10px 32px;
+    gap: 10px;
+    z-index: 5;
+    background-image: url(../img/header/download.png);
+    background-repeat: no-repeat;
+    background-position: center right 16%;
+    background-size: 24px 24px;
+    
+    
+}
+.images{
+    border: 1px solid inherit;
+    width: 546px;
+    height: 567px;
+    position: absolute;
+    right: 80px;
+    margin: 163px 0px 0px 0px;
+}
+.lang {
+    background-image: url(../img/header/lang.png);
+    width: 512px;
+    height: 514px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 32px;
+    z-index: 1; 
+}
+.human {
+    background-image: url(../img/header/human.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 473px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -330px;
+    z-index: 3;
+}
+.shaddow {
+    background-image: url(../img/header/shaddow.png);
+    background-repeat: no-repeat;
+    width: 348px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+    position: relative;
+    top: -445px;
+}
+.arrow{
+    width: 96px;
+    height: 96px;
+    background:rgba(57, 62, 70, 0.75);
+    backdrop-filter: blur(4px);
+    position: absolute;
+    left: 464px;
+    top: 864px;
+    background-image: url(../img/header/arrow.png);
+    background-repeat: no-repeat;
+    background-size: 21px 36px;
+    background-position: center;
+}
+
