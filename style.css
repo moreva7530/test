@@ -251,7 +251,6 @@ div ul li a{
 
 }
 .info {
-    border: 1px solid red;
     width: 426px;
     height: 294px;
     display: inline-block;
@@ -262,19 +261,59 @@ div ul li a{
 .heading {
     display: flex;
     flex-direction: row;
+    padding: 15px 0px 0px 0px;
 }
 .w_word {
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+
+    margin: 0;
+    padding: 0;
 }
 .b_word {
+    color: #00ADB5;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    margin: 0;
+    padding: 0;
 }
 .txt {
+    color: #EEEEEE;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    width: 389px;
+    height: 189px;
+    margin: 0px;
+    padding: 0px;
+
+    position: relative;
+    top: -22px;
 }
 .readmore {
+    color: #EEEEEE;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
 }
 .lamp {
     background-image: url(../img/s2/lamp.png);
     width: 79px;
     height: 101px;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 .arrow_s2 {
     background-image: url(../img/s2/arrow_2.png);
@@ -287,7 +326,6 @@ div ul li a{
     left: 257px;
 }
 .img_s2 {
-    border: 1px solid gold;
     width: 665px;
     height: 593px;
     display: inline-block;
@@ -323,7 +361,6 @@ div ul li a{
     z-index: -1;
 }
 .border_test{
-    border: 1px solid rgba(165, 3, 3, 0.836);
     width: 1400px;
     position: absolute;
     top: 2048px;
