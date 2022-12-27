@@ -499,7 +499,217 @@ div ul li a{
     margin: 0px;
     padding: 0px;
 }
+.all {
+    width: 1200px;
+    height: 487px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2316px;
+    left: 120px;
+}
+.btn_with_txt {
+    width: 540px;
+    height: 159px;
+    
+}
+.bw_words {
+    display: flex;
+    flex-direction: row;
+}
+.my_recent {
+    color: #FFFFFF;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 64px;
+}
+.b_works {
+    color: #00ADB5;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 64px;
+}
+.ui_ux {
+    display: flex;
+    flex-direction: row;
 
+    width: 482px;
+    height: 47px;
+    margin: 16px 0px 0px 0px;
+
+}
+.btn_1 {
+    border: none;
+    color: #EEEEEE;
+    background-color: #00ADB5;
+    border-radius: 24px;
+    padding: 10px, 32px;
+    gap: 10px;
+    width: 88px;
+    height: 47px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #EEEEEE;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+    margin: 0px 16px 0px 0px;
+}
+.btn_2 {
+    border: none;
+    padding: 10px 32px;
+    gap: 10px;
+    background: rgba(57, 62, 70, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 24px;
+    width: 82px;
+    height: 47px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #EEEEEE;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+    margin: 0px 16px 0px 0px;
+}
+.btn_3 {
+    border: none;
+    padding: 10px 32px;
+    gap: 10px;
+    background: rgba(57, 62, 70, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 24px;
+    width: 90px;
+    height: 47px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #EEEEEE;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+    margin: 0px 16px 0px 0px;
+}
+.btn_4 {
+    border: none;
+    padding: 10px 32px;
+    gap: 10px;
+    background: rgba(57, 62, 70, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 24px;
+    width: 174px;
+    height: 47px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #EEEEEE;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+    margin: 0px 16px 0px 0px;
+}
+.img_ui_ux {
+    width: 1200px;
+    height: 280px;
+   
+    margin: 48px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.b_1 {
+    width: 368px;
+    height: 280px;
+
+    background: rgba(57, 62, 70, 0.5);
+    backdrop-filter: blur(2px);
+    border-radius: 16px;
+    margin: 0px 48px 0px 0px;
+    align-items: center;
+}
+.img_b_1 {
+    background-image: url(../img/s3/UI_img.png);
+    background-size: 265px 158px;
+    background-repeat: no-repeat;
+    width: 265px;
+    height: 158px;
+
+    position: relative;
+    left: 51px;
+    top: 61px;
+}
+.first_page {
+    background-image: url(../img/s3/UI_img_1.png);
+    background-size: 270px 169px;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 169px;
+
+    position: relative;
+    left: 0px;
+    top: 61.71px;
+}
+.second_page {
+    background-image: url(../img/s3/UI_img_2.png);
+    background-size: 270px 169px;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 169px;
+    position: absolute;
+    left: 98.97px;
+    top: 49px;
+    z-index: -1;
+}
+.b_3{
+    width: 368px;
+    height: 280px;
+
+    background: rgba(57, 62, 70, 0.5);
+    backdrop-filter: blur(2px);
+    border-radius: 16px;
+    align-items: center;
+}
+.img_b1 {
+    background-image: url(../img/s3/img_tel_1.png);
+    background-size: 192px 171px;
+    background-repeat: no-repeat;
+    width: 192px;
+    height: 171px;
+
+    position: absolute;
+    left: 0px;
+    top: 55px;
+}
+.img_b2 {
+    background-image: url(../img/s3/img_tel_2.png);
+    background-size: 192px 171px;
+    background-repeat: no-repeat;
+    width: 192px;
+    height: 171px;
+
+    position: absolute;
+    left: 84.57px;
+    top: 55px;
+}
+.img_b3 {
+    background-image: url(../img/s3/img_tel_3.png);
+    background-size: 192px 171px;
+    background-repeat: no-repeat;
+    width: 192px;
+    height: 171px;
+
+    position: absolute;
+    left: 167.85px;
+    top: 55px;
+}
 /* s4 */
 .s4{
     max-width: 1440px;
